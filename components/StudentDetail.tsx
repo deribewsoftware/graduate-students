@@ -2,12 +2,12 @@
 // File: components/StudentDetail.tsx
 'use client';
 
+import { Student } from '@/types/student';
 import { FC } from 'react';
 
 interface Props {
-  student: any;
+  student: Student;
 }
-
 const StudentDetail: FC<Props> = ({ student }) => {
   return (
     <div className="p-6 border rounded-xl shadow bg-white max-w-2xl mx-auto mt-6">

@@ -9,7 +9,6 @@ import {
   FaArrowLeft,
   FaUserGraduate,
   FaUniversity,
-  FaAddressCard,
 } from 'react-icons/fa';
 
 export default function StudentDetailPage() {

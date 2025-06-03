@@ -3,9 +3,10 @@
 import { FC } from 'react';
 import Link from 'next/link';
 import { FaUserGraduate } from 'react-icons/fa';
+import { Student } from '@/types/student';
 
 interface Props {
-  student: any;
+  student: Student;
 }
 
 const StudentCard: FC<Props> = ({ student }) => {
